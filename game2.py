@@ -315,21 +315,3 @@ if __name__ == "__main__":
 
     start_game()
 
-#
-# from random import randint
-#
-# n = 1_000_000
-# probs = [0, 0]
-# for _ in range(n):
-#     i = 0
-#     while randint(1, 6) != 6:
-#         i += 1
-#
-#     if i == 0:
-#         probs[0] += 1
-#     elif i == 5:
-#         probs[1] += 1
-#
-#
-# print(probs)
-
